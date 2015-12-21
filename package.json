@@ -1,17 +1,17 @@
 {
-	"name": "language-scilab",
-	"version": "0.0.0",
-	"description": "Scilab language support in Atom",
-	"engines": {
-		"atom": "*"
-	},
-	"dependencies": {},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/JeremyHeleine/language-scilab.git"
-	},
-	"bugs": {
-		"url": "https://github.com/JeremyHeleine/language-scilab/issues"
-	},
-	"license": "MIT"
+  "name": "language-scilab",
+  "version": "0.1.0",
+  "description": "Scilab language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeremyHeleine/language-scilab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JeremyHeleine/language-scilab/issues"
+  },
+  "license": "MIT"
 }
