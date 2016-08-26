@@ -128,4 +128,74 @@ repository:
 						name: 'entity.name.function.scilab'
 				name: 'meta.function.scilab'
 			}
+			{
+				comment: 'Scilab built-in functions: Bitwise operations'
+				match: '\\b(bitand|bitcmp|bitget|bitor|bitset|bitxor|isequalbitwise)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Complex'
+				match: '\\b(complex|conj|imag|imult|isreal|real)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Discrete mathematics'
+				match: '\\b(factor|factorial|gcd|lcm|perms|primes|rat)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Elementary matrices'
+				match: '\\b(diag|empty|eye|ind2sub|linspace|logspace|meshgrid|ndgrid|ones|rand|squarewave|sub2ind|testmatrix|toeplitz|zeros)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Log - exp - power'
+				match: '\\b(exp|expm|log|log10|log1p|log2|logm|polar|power|sqrt|sqrtm)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Floating point'
+				match: '\\b(ceil|clean|double|fix|floor|format|frexp|ieee|int|isinf|isnan|nearfloat|nextpow2|number_properties|round)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Radix conversions'
+				match: '\\b(base2dec|bin2dec|dec2base|dec2bin|dec2hex|dec2oct|hex2dec|oct2dec)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Matrix manipulation'
+				match: '\\b(flipdim|matrix|permute|pertrans|repmat|resize_matrix|squeeze)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Matrix operations'
+				match: '\\b(abs|cross|cumprod|cumsum|kron|max|min|norm|prod|signm|sum|tril|triu)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Search and sort'
+				match: '\\b(dsearch|find|gsort|vectorfind)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Set operations'
+				match: '\\b(intersect|members|setdiff|union|unique)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Signal processing'
+				match: '\\b(bloc2ss|pen2ea|ssrand|sysconv|sysdiag|trfmod)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Trigonometry'
+				match: '\\b(acos|acosd|acosh|acoshm|acosm|acot|acotd|acoth|acsc|acscd|acsch|asec|asecd|asech|asin|asind|asinh|asinhm|asinm|atan|atand|atanh|atanhm|atanm|cos|cosd|cosh|coshm|cosm|cotd|cotg|coth|cothm|csc|cscd|csch|csgn|sec|secd|sech|sin|sinc|sind|sinh|sinhm|sinm|tan|tand|tanh|tanhm|tanm)\\b'
+				name: 'support.function.scilab'
+			}
+			{
+				comment: 'Scilab built-in functions: Miscellaneous'
+				match: '\\b(and|cat|cell2mat|cellstr|iscolumn|isempty|isequal|ismatrix|isrow|isscalar|issquare|isvector|lstsize|pmodulo|ndims|nthroot|num2cell|or|sign|size|unwrap)\\b'
+				name: 'support.function.scilab'
+			}
 		]
