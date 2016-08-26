@@ -34,6 +34,17 @@ repository:
 				end: '\\n'
 				name: 'comment.line.double-slash.scilab'
 			}
+			{
+				begin: '/\\*'
+				beginCaptures:
+					'0':
+						name: 'punctuation.definition.comment.begin.scilab'
+				end: '\\*/'
+				endCaptures:
+					'0':
+						name: 'punctuation.definition.comment.end.scilab'
+				name: 'comment.block.scilab'
+			}
 		]
 
 	numbers:
