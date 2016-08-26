@@ -1,0 +1,4 @@
+'.source.scilab':
+	'editor':
+		'increaseIndentPattern': '^\\s*(function|if|elseif|else|for|while|select|case|try|catch)\\b.*$'
+		'decreaseIndentPattern': '^\\s*(endfunction|elseif|else|catch|end)\\b$'
